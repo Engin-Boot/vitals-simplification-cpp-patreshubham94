@@ -19,7 +19,6 @@ bool isResprateok(float respRate) {
 bool vitalsAreOk(float bpm, float spo2, float respRate) {
 	return (isbpmok(bpm) && isSpo2ok(spo2) && isResprateok(respRate));
 
-	return true;
 }
 
 int main() {
